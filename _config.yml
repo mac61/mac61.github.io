@@ -1,3 +1,7 @@
+# Site Settings
+title: Kevin McDermott
+email: kevin.t.mcdermott@gmail.com
+description: "Thinker // Hacker // Snowboarder"
 name: Kevin McDermott
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title

@@ -1,6 +1,8 @@
 header
   height: 450px
-  background: #cccccc
+  /*background: grey
+  background: url(../img/hero.jpg) center center
+  background-size: cover
 
   .logo
     +size(50px)
@@ -13,16 +15,13 @@ header
     margin: 30px 30px 0 0
 
     a
+      @extend %small-bold
       display: inline-block
       margin-left: 20px
-      color: rgba(0,0,0,0.7)
-      font:
-        size: 14px
-        weight: 800
-      text-transform: uppercase
+      color: white
 
       &:hover
-        color: rgba(0,0,0,1)
+        color: navajowhite
 
   h1
     text-align: center
@@ -42,10 +41,8 @@ header
       border: white solid 10px
 
   .kicker
+    @extend %small-bold
     text-align: center
-    font:
-      weight: 800
-    text-transform: uppercase
     letter-spacing: 0.05em
     color: white
     line-height: 1
