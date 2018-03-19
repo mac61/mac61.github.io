@@ -233,7 +233,6 @@ header nav a, header .kicker, footer .copyright, footer nav a, h3 {
 
 header {
   height: 450px;
-  /*background: grey */
   background: url(/assets/img/hero_14x9.jpg) center center;
   background-size: cover; }
   header .logo {
