@@ -1,17 +1,17 @@
+---
+---
 <!DOCTYPE html>
-	<html>
-		{% include head.html %}
-		<body>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:kevin.t.mcdermott@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/mac61">github.com/mac61</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html lang="en">
+{% include head.html %}
+<body>
+
+{% include header.html %}
+
+{{content}}
+
+{% include footer.html %}
+
+<script src="/assets/js/jquery-2.1.1.min.js"></script>
+<script src="/assets/js/functions.js" type="text/javascript"></script>
+</body>
+</html>
