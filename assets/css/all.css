@@ -226,31 +226,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
-header nav a, header .kicker, footer .copyright, footer nav a, h3 {
+.image_header nav a, .image_header .kicker, footer .copyright, footer nav a, h3 {
   font-size: 14px;
   font-weight: 800;
   text-transform: uppercase; }
 
-header {
+.image_header {
   height: 450px;
   background: url(/assets/img/hero_14x9.jpg) center center;
   background-size: cover; }
-  header .logo {
+  .image_header .logo {
     height: 50px;
     width: 50px;
     background: #999;
     float: left;
     margin: 10px 0 0 30px; }
-  header nav {
+  .image_header nav {
     float: right;
     margin: 30px 30px 0 0; }
-    header nav a {
+    .image_header nav a {
       display: inline-block;
       margin-left: 20px;
       color: white; }
-      header nav a:hover {
+      .image_header nav a:hover {
         color: navajowhite; }
-  header h1 {
+  .image_header h1 {
     text-align: center;
     font-size: 72px;
     font-weight: 800;
@@ -260,11 +260,11 @@ header {
     margin-bottom: 20px;
     clear: both;
     padding-top: 100px; }
-    header h1 span {
+    .image_header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
       border: white solid 10px; }
-  header .kicker {
+  .image_header .kicker {
     text-align: center;
     letter-spacing: 0.05em;
     color: white;
@@ -320,10 +320,22 @@ h3 {
   text-align: center;
   font-weight: 300; }
 
-h1 {
-  font-size: 2rem;
-  color: black;
-  text-align: center;
-  padding: 50px 0 30px; }
+.blog-container {
+  padding-top: 10px;
+  margin: 30px; }
+  .blog-container .blog-unit h1 {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 0px;
+    font-size: 24px;
+    font-weight: 700; }
+    .blog-container .blog-unit h1 a {
+      color: black; }
+    .blog-container .blog-unit h1:hover a {
+      color: #BD5248; }
+  .blog-container .blog-unit .blog-date {
+    display: block;
+    font-size: 14px;
+    font-weight: 700; }
 
 /*# sourceMappingURL=all.css.map */
