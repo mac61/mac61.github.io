@@ -2,11 +2,12 @@
 layout: post
 title: "HackTheBox Sense Walkthrough"
 date: 2018-03-24
+tags: HackTheBox, Walkthrough
 ---
 
 With Sense now being retired, I can go ahead and post my first "on time" hackthebox walkthrough.
 
-# 1 - Enumeration
+#### Enumeration
 Starting with Nmap, as always...
 ```
 # Nmap 7.60 scan initiated Mon Mar 19 07:51:25 2018 as: nmap -p- -sC -sV -oA sense_full 10.10.10.60
@@ -61,7 +62,7 @@ pfSense UTM Platform 2.0.1 - Cross-Site Scripting                               
 
 PFsense's default credentials (admin:pfsense) didn't work. Attempting to brute force the login ended with my ip being blacklisted. Apparently that is not the way we're supposed to get in...
 
-#2 - Web Content Discovery
+#### Web Content Discovery
 Considering that we have a RCE Metasploit vulnerability and we got blacklisted trying to brute force the login, we probably need to find some credentials. After a lot gobuster scans, I finally found what I needed.
 ```
 Gobuster v1.2                OJ Reeves (@TheColonial)
@@ -88,7 +89,7 @@ system-users.txt revealed a username (rohit) and a hint at the password: "passwo
 
 Logging in with rohit:pfsense granted access to pfsense!
 
-#3 - Exploitation
+#### Exploitation
 Now that we had usable credentials, we could go ahead and try out that MSF module.
 ```
 Module options (exploit/unix/http/pfsense_graph_injection_exec):
@@ -123,7 +124,7 @@ And we get dropped into Sense as root!
 meterpreter > getuid
 Server username: root (0)
 ```
-#4 - Closing Thoughts
+#### Closing Thoughts
 Overall, I'd consider Sense a *** box. I'm generally not a fan of VMs that require the use of a specific list to find critical information about the machine (in this case the username). However, because I was stuck at that stage for so long, I spent a lot of effort formalizing my web content discovery process, and in retrospect that was a great learning experience. It was quite frustrating at the time though... Also, while you needed to use the right list for content discovery, it was not an unusual list. I can't really complain about that too much.
 
 It is nice that Sense was a realistic machine. Getting blacklisted is a great touch, and I'm generally more a fan of boxes that are realistic than CTF style.
