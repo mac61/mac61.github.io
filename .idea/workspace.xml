@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602f4c5f-68a5-4b15-b1e0-c08f5ac1ccce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/3-sections/_code.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-03-24-HackTheBox-Sense-Walkthrough.md" afterPath="$PROJECT_DIR$/_posts/2018-03-24-HackTheBox-Sense-Walkthrough.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass" afterPath="$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/all.css" afterPath="$PROJECT_DIR$/assets/css/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/all.css.map" afterPath="$PROJECT_DIR$/assets/css/all.css.map" />
     </list>
     <ignored path="mac61.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +59,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-03-24-HackTheBox-Sense-Walkthrough.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_-sections-dir.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-03-24-HackTheBox-Sense-Walkthrough.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-03-24-HackTheBox-Sense-Walkthrough.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -72,21 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/all.css">
+      <file leaf-file-name="_code.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/3-sections/_code.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="151" column="14" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
+            <state relative-caret-position="300">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="github_notes.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_notes/github_notes.txt">
+      <file leaf-file-name="all.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/all.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+            <state relative-caret-position="727">
+              <caret line="395" column="0" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,16 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_about.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/3-sections/_about.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -183,7 +185,6 @@
         <option value="$PROJECT_DIR$/assets/css/3-sections/_simple_header.sass" />
         <option value="$PROJECT_DIR$/blog/blog.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/_blog-feed.sass" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_notes/github_notes.txt" />
@@ -193,6 +194,8 @@
         <option value="$PROJECT_DIR$/assets/css/3-sections/_post.sass" />
         <option value="$PROJECT_DIR$/assets/css/all.css" />
         <option value="$PROJECT_DIR$/_posts/2018-03-24-HackTheBox-Sense-Walkthrough.md" />
+        <option value="$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass" />
+        <option value="$PROJECT_DIR$/assets/css/3-sections/_code.sass" />
       </list>
     </option>
   </component>
@@ -485,7 +488,7 @@
       <workItem from="1515541788310" duration="11670000" />
       <workItem from="1521496904487" duration="6826000" />
       <workItem from="1521849549811" duration="1703000" />
-      <workItem from="1521854375257" duration="7274000" />
+      <workItem from="1521854375257" duration="8363000" />
     </task>
     <task id="LOCAL-00001" summary="Adding .idea to .gitignore">
       <created>1506383175995</created>
@@ -613,11 +616,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521990603361</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="cleaned up some css">
+      <created>1521991217133</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1521991217133</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40393000" />
+    <option name="totallyTimeSpent" value="41482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="447" y="142" width="1995" height="1213" extended-state="0" />
@@ -670,20 +680,14 @@
     <MESSAGE value="blog looks right!" />
     <MESSAGE value="adding sense post" />
     <MESSAGE value="cleaned up h1 in posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up h1 in posts" />
+    <MESSAGE value="cleaned up some css" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up some css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_notes/github_notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -933,14 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1018,14 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="151" column="14" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1044,6 +1032,30 @@
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="395" column="0" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/3-sections/_code.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
