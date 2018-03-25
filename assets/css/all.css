@@ -345,6 +345,9 @@ h3 {
   margin: 0px auto 30px;
   position: relative;
   display: block; }
+  .work-container h1 {
+    color: black;
+    font-size: 2rem; }
   .work-container h4 {
     color: black;
     line-height: 1.2;
