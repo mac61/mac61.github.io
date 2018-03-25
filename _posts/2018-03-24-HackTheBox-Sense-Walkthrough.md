@@ -30,7 +30,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 # Nmap done at Mon Mar 19 07:53:26 2018 -- 1 IP address (1 host up) scanned in 121.24 seconds
 ```
 So, we have a webserver. Navigating to it in Firefox we find that it is running PFSense:
-![PFSense[({{"/images/blog/sense/pfsense.jpg" | absolute_url }})
+![PFSense]({{"/img/blog_images/sense/pfsense.jpg" | absolute_url }})
 
 A quick searchsploit revealed quite a few interesting vulnerabilities. However, all of the
 apparently useful exploits require authentication.

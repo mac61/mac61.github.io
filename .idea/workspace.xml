@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602f4c5f-68a5-4b15-b1e0-c08f5ac1ccce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/3-sections/_code.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass" afterPath="$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/all.css" afterPath="$PROJECT_DIR$/assets/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/all.css.map" afterPath="$PROJECT_DIR$/assets/css/all.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-03-24-HackTheBox-Sense-Walkthrough.md" afterPath="$PROJECT_DIR$/_posts/2018-03-24-HackTheBox-Sense-Walkthrough.md" />
     </list>
     <ignored path="mac61.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,12 +66,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-03-24-HackTheBox-Sense-Walkthrough.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-03-24-HackTheBox-Sense-Walkthrough.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-03-24-HackTheBox-Sense-Walkthrough.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="666">
-                <caret line="126" column="4" selection-start-line="126" selection-start-column="4" selection-end-line="126" selection-end-column="4" />
+              <first_editor relative-caret-position="426">
+                <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -84,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_code.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_code.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/3-sections/_code.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -193,9 +190,9 @@
         <option value="$PROJECT_DIR$/_posts/2018-03-24-Sense-Walkthrough.md" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/_post.sass" />
         <option value="$PROJECT_DIR$/assets/css/all.css" />
-        <option value="$PROJECT_DIR$/_posts/2018-03-24-HackTheBox-Sense-Walkthrough.md" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/_code.sass" />
+        <option value="$PROJECT_DIR$/_posts/2018-03-24-HackTheBox-Sense-Walkthrough.md" />
       </list>
     </option>
   </component>
@@ -267,6 +264,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mac61.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mac61.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mac61.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mac61.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog_images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sense" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,7 +529,7 @@
       <workItem from="1515541788310" duration="11670000" />
       <workItem from="1521496904487" duration="6826000" />
       <workItem from="1521849549811" duration="1703000" />
-      <workItem from="1521854375257" duration="8363000" />
+      <workItem from="1521854375257" duration="8501000" />
     </task>
     <task id="LOCAL-00001" summary="Adding .idea to .gitignore">
       <created>1506383175995</created>
@@ -623,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521991217133</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="cleaned up some css">
+      <created>1521992393239</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1521992393239</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41482000" />
+    <option name="totallyTimeSpent" value="41620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="447" y="142" width="1995" height="1213" extended-state="0" />
@@ -1022,19 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-03-24-HackTheBox-Sense-Walkthrough.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="666">
-            <caret line="126" column="4" selection-start-line="126" selection-start-column="4" selection-end-line="126" selection-end-column="4" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/3-sections/_-sections-dir.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1056,6 +1091,19 @@
         <state relative-caret-position="300">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-03-24-HackTheBox-Sense-Walkthrough.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="426">
+            <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
